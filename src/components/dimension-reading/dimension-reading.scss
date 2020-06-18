@@ -1,0 +1,44 @@
+@import "../common/common";
+article.dimension-reading>section{
+  display: grid;
+  grid-row-gap: .68rem;
+}
+article.dimension-reading-item{
+  //background-color: white;
+  height: 8rem;
+  padding: .32rem .68rem;
+  background-color: rgba(255,255,255,.8);
+  box-shadow: 0 0 1rem rgba(1,1,1,.7);
+  @include common-border;
+  display: grid;
+  grid-template-rows: 2rem 1fr 1.32rem;
+  >section{
+    overflow-y: hidden;
+  }
+  >footer{
+    overflow: hidden;
+  }
+}
+//卡片头
+article.dimension-reading-item>header{
+  //font-weight: 600;
+}
+//卡片头
+
+//卡片尾部
+article.dimension-reading-item>footer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+article.dimension-reading-item>footer>div>label{
+  font-size: .8rem;
+}
+article.dimension-reading-item>footer>div>label:first-child{
+  color: #999999;
+}
+article.dimension-reading-item>footer>div>label:last-child{
+  //font-weight: 600;
+  color: #333333;
+}
+//卡片尾部
+//dimension-reading-item

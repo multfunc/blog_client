@@ -1,0 +1,25 @@
+@import "../common/common";
+article.dimension-show{
+  @include common-border;
+  @include common-background;
+  @include common-shadow;
+  height: 100%;
+  padding: .32rem .68rem;
+  display: grid;
+  grid-template-rows: 3rem 1fr 3rem;
+
+}
+article.dimension-show>section{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+
+}
+article.dimension-show>section>label{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-family:  FangSong,KaiTi,Microsoft YaHei;
+  font-weight: 600;
+}

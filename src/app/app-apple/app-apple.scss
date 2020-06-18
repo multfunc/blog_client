@@ -1,0 +1,47 @@
+body{
+  font-family: "微软雅黑","Microsoft Yahei";
+}
+article.app-apple {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 14fr 0 80fr 6fr;
+}
+//页头
+article.app-apple > header {
+  display: grid;
+  max-height: 10vh;
+}
+//页头
+//页中
+article.app-apple>section{
+  //height: 80vh;
+  //overflow-y: hidden;
+  overflow-y: scroll;
+  padding: calc(3rem * .68) 3rem;
+  background: url("./image/bg.jpg");
+  background-size: 100% 100%;
+
+}
+article.app-apple>section>article{
+  display: grid;
+  grid-template-columns:0 7fr 3fr 0;
+  grid-column-gap: .68rem;
+}
+article.app-apple>section>article>aside{//个人展示
+  position: sticky;
+  top: 0;
+  //background-color: red;
+  height:500px;
+}
+//页中
+//页尾
+article.app-apple>footer{
+  display: grid;
+  justify-content:left;
+  align-items: center;
+  //background-color: red;
+  padding-left: 3rem;
+  //background-color: rgba(120,200,80,1);
+}
+//页尾
+

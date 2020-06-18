@@ -1,0 +1,9 @@
+@mixin common-border{
+  border-radius: .32rem;
+}
+@mixin common-background{
+  background-color: rgba(255,255,255,.8);
+}
+@mixin common-shadow{
+  box-shadow: 0 0 1rem rgba(1,1,1,.7);
+}

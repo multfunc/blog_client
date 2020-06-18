@@ -1,0 +1,30 @@
+@mixin navigation-height{
+  height: 10vh;
+}
+article.navigation-top{
+  display: grid;
+  grid-template-columns: 50fr 40fr 10rem;
+  padding: calc(3rem * .68) 0 0 3rem;
+}
+//左
+article.navigation-top>header>div{
+  height: 8vh;
+  >img{
+    height: 100%;
+    cursor: pointer;
+  }
+}
+//左
+
+//右
+article.navigation-top>footer{
+  >article{
+    >section{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: left;
+      align-items: center;
+    }
+  }
+}
+//右
