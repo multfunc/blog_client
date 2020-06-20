@@ -1,6 +1,8 @@
 import React, {useState, useEffect, lazy} from 'react'
 import {useQuery, useLazyQuery} from '@apollo/react-hooks'
 import {useHistory} from 'react-router-dom'
+import moment from "moment";
+
 
 import './dimension-reading.scss'
 import {
@@ -55,7 +57,7 @@ export function DimensionReading(props) {
                               </div>
                               <div>
                                   <label>更新时间：</label>
-                                  <label>{item['updated_at']}</label>
+                                  <label>{moment(item['updated_at']).format("YYYY-MM-DD HH:mm:ss")}</label>
                               </div>
                           </footer>
                       </article>

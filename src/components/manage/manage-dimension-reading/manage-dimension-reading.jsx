@@ -10,6 +10,7 @@ import {
 } from "../../../register-center/route/route-register-center/route-register-center";
 import {CREATE_DIMENSION_READING} from "../../../register-center/graphql-schema/dimension-reading/graphql-dimension-reading-mutation";
 import {QUERY_DIMENSION_READINGS} from "../../../register-center/graphql-schema/dimension-reading/graphql-dimension-reading";
+import moment from "moment";
 
 
 export function ManageDimensionReading(props) {
@@ -134,7 +135,7 @@ export function ManageDimensionReading(props) {
                                 </section>
                                 <footer>
                                     <label>时间：</label>
-                                    <label>{item['updated_at']}</label>
+                                    <label>{moment(item['updated_at']).format("YYYY-MM-DD HH:mm:ss")}</label>
                                 </footer>
                             </article>
                         </footer>

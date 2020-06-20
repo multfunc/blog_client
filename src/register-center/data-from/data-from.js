@@ -1,5 +1,5 @@
-const APP_SERVER_HOST="http://192.168.199.201:7005"//本地测试
-// const APP_SERVER_HOST="http://www.junfenghe.com:7005"//本地测试
+// const APP_SERVER_HOST="http://192.168.199.201:7005"//本地测试
+const APP_SERVER_HOST="http://www.junfenghe.com:7005"//本地测试
 
 /*GraphQL server*/
 //base
