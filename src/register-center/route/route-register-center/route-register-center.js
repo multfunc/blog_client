@@ -29,6 +29,7 @@ export const ROUTE_APP = ["", 0 * ZERO_WEIGHT]
 //first level
 export const ROUTE_LOGIN = ["login", 10 * FIRST_WEIGHT]//登录
 export const ROUTE_DIMENSION_READING = ['dimension-reading', 20 * FIRST_WEIGHT]//读书笔记
+export const ROUTE_DIMENSION_TEST=['dimension-test',21*FIRST_WEIGHT]//测试
 export const ROUTE_MANAGE_DIMENSION_READING = ['manage-dimension-reading', 30 * FIRST_WEIGHT]//设置
 
 

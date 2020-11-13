@@ -6,7 +6,7 @@ import './app-apple.scss'
 import {ContextAuthorization} from "../../register-center/context-app/context-app";
 import SVG_LOGO from './image/logo.svg'
 import {
-    ROUTE_APP, ROUTE_DIMENSION_READING,
+    ROUTE_APP, ROUTE_DIMENSION_READING, ROUTE_DIMENSION_TEST,
     ROUTE_LOGIN, ROUTE_MANAGE_DIMENSION_READING
 } from "../../register-center/route/route-register-center/route-register-center";
 import {Login} from "../../components/authorization/login/login";
@@ -14,8 +14,8 @@ import {Init} from "../../components/a-init/init/init";
 import {NavigationTop} from "../../components/navigation/navigation-top/navigation-top";
 import {DimensionReading} from "../../components/dimension-reading/dimension-reading";
 import {DimensionShow} from "../../components/dimension-show/dimension-show";
-import {Register} from "../../components/authorization/register/register";
 import {ManageDimensionReading} from "../../components/manage/manage-dimension-reading/manage-dimension-reading";
+import {DimensionTest} from "../../components/dimension/dimension-test/dimension-test";
 
 
 export function AppApple(props) {
@@ -70,6 +70,9 @@ export function AppApple(props) {
                                component={DimensionReading}/>
                         <Route path={`${ROUTE_APP[0]}/${ROUTE_MANAGE_DIMENSION_READING[0]}`}
                                component={ManageDimensionReading}/>
+                        <Route path={`${ROUTE_APP[0]}/${ROUTE_DIMENSION_TEST[0]}`}
+                               component={DimensionTest}/>
+
                     </section>
                     <aside>
                         <DimensionShow/>

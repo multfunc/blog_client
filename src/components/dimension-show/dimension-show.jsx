@@ -26,15 +26,9 @@ export function DimensionShow(props) {
     return <article className={"dimension-show"}>
         <header></header>
     <section>
-        <label>敞开</label>
-        <label>像这春天</label>
-        <label>轻柔的微风</label>
-        <label>寂静季节里</label>
-        <label>封藏的冰冷</label>
-        <label>与回到大海的航船……</label>
-        <label>现在</label>
-        <label>我们必须编制花冠</label>
-        <label>装扮头顶</label>
+        <label>荣誉不属于批评者，那些指出强者如何跌倒、或实干者哪里本可以做得更好的人。</label>
+        <label>荣誉属于真正站在竞技场上的人，属于脸庞沾满灰尘、汗水和鲜血的人，属于顽强奋斗的人，属于犯错，一次又一次失败的人，因为没有不伴随错误或缺陷的成就。</label>
+        <label>然而实际拼搏的人，懂得极大热情和投入的人，投身于有价值的事业的人，最终或如愿取得伟大成就，而即使遭遇失败也不乏胆量，因此其所处将永不同于冷漠且胆小、未经胜败洗礼者。</label>
     </section>
     <footer></footer>
     </article>
