@@ -151,6 +151,6 @@
   "devDependencies": {
     "babel-plugin-import": "^1.13.0",
     "jest": "^24.9.0",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
